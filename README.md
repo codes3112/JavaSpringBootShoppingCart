@@ -1,4 +1,4 @@
 # JavaSpringBootShoppingCart
 Dependencies: Security, JPA, MySql, Thymeleaf, Web.
 
-Database Used:MySql(XAMPP)
+Database:MySql. Import mydatabase.sql in XAMPP(mySQL).
