@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+   <head>
+      <meta charset="UTF-8">
+      <title> Online Shopping Cart</title>
+      <link rel="stylesheet" type="text/css" th:href="@{/styles.css}" />
+       <link rel="stylesheet" type="text/css" th:href="@{/bootstrap/css/bootstrap.min.css}">
+   </head>
+   <body>
+   <div class="container">
+      <th:block th:include="/_header"></th:block>
+      <th:block th:include="/_menu"></th:block>
+       
+      <div class="page-title"> 
+      <h2> Shopping Planet -Your Online shopping destination</h2>
+      </div>
+      <div class="demo-container">         
+         <p>Our Shopping Cart lives to serve the masses</p>
+      </div>
+      
+     
+
+
+      <th:block th:include="/_footer"></th:block>
+    </div>   
+   </body>
+</html>
